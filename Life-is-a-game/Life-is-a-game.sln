@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Life-is-a-game", "Life-is-a-game\Life-is-a-game.csproj", "{953AD6DB-B0BC-44B1-86DF-3DF3D5231AF4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Life-is-a-game", "Life-is-a-game\Life-is-a-game.csproj", "{1DBB2D0E-C932-45ED-BEB2-1B53DAC6B63F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{953AD6DB-B0BC-44B1-86DF-3DF3D5231AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{953AD6DB-B0BC-44B1-86DF-3DF3D5231AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{953AD6DB-B0BC-44B1-86DF-3DF3D5231AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{953AD6DB-B0BC-44B1-86DF-3DF3D5231AF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DBB2D0E-C932-45ED-BEB2-1B53DAC6B63F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DBB2D0E-C932-45ED-BEB2-1B53DAC6B63F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DBB2D0E-C932-45ED-BEB2-1B53DAC6B63F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DBB2D0E-C932-45ED-BEB2-1B53DAC6B63F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2A81B329-D075-42B5-887D-7B8A85E62E2A}
+		SolutionGuid = {18E29FCE-4639-4322-B562-C682003D5529}
 	EndGlobalSection
 EndGlobal
