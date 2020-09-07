@@ -13,5 +13,10 @@ namespace Life_is_a_game.Models
 
         public DbSet<UserSkill> UserSkills { get; set; }
         public DbSet<Skill> Skills { get; set; }
+        public DbSet<SkillGroup> SkillGroups { get; set; }
+        public DbSet<UserEvent> UserEvents { get; set; }
+        public DbSet<Event> Events { get; set; }
+        public DbSet<DeltaSkill> DeltaSkills { get; set; }
+
     }
 }

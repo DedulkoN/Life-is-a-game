@@ -17,7 +17,7 @@ namespace Life_is_a_game.Models
 
         public int value { get; set; }
 
-        public string UserId { get; set; }
+        public string AspNetUsers_Id { get; set; }
       //  public virtual ApplicationUser User { get; set; }
 
 
