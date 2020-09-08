@@ -5,27 +5,23 @@ using System.Web;
 
 namespace Life_is_a_game.Models
 {
+
     /// <summary>
-    /// События с пользователями
+    /// Группа событий
     /// </summary>
-    public class UserEvent
+    public class EventGroup
     {
         /// <summary>
         /// Идентификатор
         /// </summary>
         public int Id { get; set; }
         /// <summary>
-        /// Событие
+        /// Название группы
         /// </summary>
-        public Event Event { get; set; }
+        public string Name { get; set; }
         /// <summary>
-        /// Пользователь
+        /// Список связанных событий
         /// </summary>
-        public string AspNetUsers_Id { get; set; }
-        /// <summary>
-        /// Дата произошедшего
-        /// </summary>
-        public DateTime Date { get; set; }
-
+        public List<Event> Events { get; set; }
     }
 }
