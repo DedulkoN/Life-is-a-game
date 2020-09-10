@@ -14,17 +14,15 @@ namespace Life_is_a_game.Controllers
         public ActionResult Index()
         {
             DataContext context = new DataContext();
-            context.UserSkills.Where(x => x.value == 5);
-            context.UserSkills.Count(x=>x.id>0);
-            context.Skills.Count(c=>c.Id>0);
-
+ 
             return View();
         }
 
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
-
+            ApplicationDbContext context = new ApplicationDbContext();
+            
             return View();
         }
 
